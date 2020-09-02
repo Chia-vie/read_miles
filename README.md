@@ -17,7 +17,13 @@ my_python_library
 ```
 
 # requirements
-astropy
+1. data files for MILES SSPs
+   - these can be downloaded from 
+   http://research.iac.es/proyecto/miles/pages/webtools/tune-stellar-libraries.php
+   - download in FITS format
+   - keep default wavelength settings from webpage
+   - put the directories (e.g. MILES_BASTI_CH_baseFe) inside the data directories
+2. astropy
 
 # usage
 Details in docblock of MilesSSPs class. Example shown in ipython notebook.
